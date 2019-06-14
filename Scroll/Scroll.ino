@@ -2,7 +2,7 @@
   Hello World.ino
   2013 Copyright (c) Seeed Technology Inc.  All right reserved.
 
-  Author:Loovee
+  Author:Ivan
   2013-9-18
 
   Grove - Serial LCD RGB Backlight demo.
@@ -26,7 +26,7 @@
 #include "rgb_lcd.h"
 
 rgb_lcd lcd;
-
+int abc = 0;
 void setup() {
     // set up the LCD's number of columns and rows:
     lcd.begin(16, 2);
